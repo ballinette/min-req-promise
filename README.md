@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/benoitvidis/minimal-request-promise.svg?branch=master)](https://travis-ci.org/benoitvidis/minimal-request-promise)
-[![codecov](https://codecov.io/gh/benoitvidis/minimal-request-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/benoitvidis/minimal-request-promise)
+[![Build Status](https://travis-ci.org/benoitvidis/min-req-promise.svg?branch=master)](https://travis-ci.org/benoitvidis/min-req-promise)
+[![codecov](https://codecov.io/gh/benoitvidis/min-req-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/benoitvidis/min-req-promise)
 
 # Minimal Request Promise
 
@@ -15,7 +15,7 @@
 **response**: An `http.IncomingMessage` object, complemented with a `body` attribute containing the response body data;
 
 ```javascript
-const client = require('minimal-request-promise');
+const client = require('min-req-promise');
 
 return client.get('https://some/url')
   .then(response => {
@@ -31,7 +31,7 @@ return client.get('https://some/url')
  `POST`|`PUT`,.. body can be injected in `options.body`:
  
 ```javascript
-const client = require('minimal-request-promise');
+const client = require('min-req-promise');
 
 return client.post('http://some/url', {
   headers: {

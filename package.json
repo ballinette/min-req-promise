@@ -1,5 +1,5 @@
 {
-  "name": "minimal-request-promise",
+  "name": "min-req-promise",
   "version": "1.0.0",
   "description": "An extra light http client",
   "main": "src/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benoitvidis/minimal-request-promise.git"
+    "url": "git+https://github.com/benoitvidis/min-req-promise.git"
   },
   "author": "Benoît Vidis",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/benoitvidis/minimal-request-promise/issues"
+    "url": "https://github.com/benoitvidis/min-req-promise/issues"
   },
-  "homepage": "https://github.com/benoitvidis/minimal-request-promise#readme",
+  "homepage": "https://github.com/benoitvidis/min-req-promise#readme",
   "devDependencies": {
     "eslint": "^4.19.0",
     "mocha": "^5.0.4",
