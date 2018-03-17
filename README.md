@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/benoitvidis/minimal-request-promise.svg?branch=master)](https://travis-ci.org/benoitvidis/minimal-request-promise)
+[![codecov](https://codecov.io/gh/benoitvidis/minimal-request-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/benoitvidis/minimal-request-promise)
+
 # Minimal Request Promise
 
 [`request`](https://www.npmjs.com/package/request) and [`request-promise`](https://www.npmjs.com/package/request-promise) are great, but I was looking for an some extra-light implementation.
