@@ -86,6 +86,7 @@ module.exports.request = (url, method, options = {}) => new Promise((resolve, re
     res.on('timeout', () => reject(req));
   });
 
+  req.on('error', reject);
   req.write(options.body || '');
   req.end();
 });
