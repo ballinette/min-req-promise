@@ -96,5 +96,5 @@ describe('index.js', () => {
     }));
 
   it('request exception', () => client.get('http://foobar:7777/')
-    .catch(err => should(err).be.instanceof(Error).and.be.match({message: 'getaddrinfo ENOTFOUND foobar foobar:7777'})));
+    .catch(err => should(err).be.instanceof(Error).and.match({message: 'getaddrinfo ENOTFOUND foobar foobar:7777'})));
 });
